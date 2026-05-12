@@ -2,6 +2,8 @@
 
 !.gitignore
 !README.md
+!docs
+
 !cpp
 !cpp/src
 !cpp/include
@@ -15,3 +17,4 @@
 !*.sh
 !*.py
 !*.txt
+!*.png

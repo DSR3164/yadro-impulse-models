@@ -19,12 +19,17 @@ The second line includes several parameters separated by a space, the first para
 | Inter packet delay [ns]  | Second line 2nd | A non-negative integer |
 | Mean packet size [bytes] | Second line 3rd | A non-negative integer |
 
-Example of a config for 1G Ethernet traffic simulation.
+### Example of a config for 1G Ethernet traffic simulation.
 
 ```
 10.0
 Poisson 5600 700
 ```
+
+### Result
+
+![Poisson model packets size hist](docs/poisson_size.png)
+![Poisson model inter packet delay hist](docs/poisson_delay.png)
 
 ## Build
 
