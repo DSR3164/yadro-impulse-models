@@ -128,7 +128,7 @@ void parse_args(int argc, const char **argv, std::unique_ptr<TrafficModel> &mode
         if (duration <= 0.0 || duration > 3600.0)
         {
             std::cout << "Too small or too big simulation time!\n"
-                      << "Valid range 1 < x < 3600 seconds\n"
+                      << "Valid range 0 < x < 3600 seconds\n"
                       << "Value set to 10 second\n";
             duration = 10.0;
         }
