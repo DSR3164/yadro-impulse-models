@@ -1,3 +1,5 @@
+## **[Репозиторий со вторым тестовым заданием](https://github.com/DSR3164/yadro-impulse-qam)**
+
 # Traffic model simulation
 
 This project is a simulator of internet traffic patterns.
